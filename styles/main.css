@@ -22,3 +22,12 @@ nav ul li a {
 nav ul li a:hover {
     color: #1b5fb4;
 }
+section table {
+    border: 2px solid black;
+}
+section table th, section table td {
+    border: 1px solid black;
+}
+section table tr:nth-child(even) {
+    background-color: #001aff;
+}
