@@ -11,28 +11,16 @@ nav ul {
     padding: 0;
 }
 
-nav ul li a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #2a7ae2;
-    display: inline-block;
-    padding: 4px 0;
-}
-
-nav ul li a:hover {
-    color: #1b5fb4;
-}
-section table {
-    border: 2px solid black;
-}
-section table th, section table td {
-    border: 1px solid black;
-}
-section table tr:nth-child(even) {
-    background-color: #00b6e4;
-}
 .resized-img {
     width: 250px;
     height: 250px;
+    margin: 10px;
+}
+
+.bordered-Image {
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(0, 195, 255);
+    padding: 5px;
     margin: 10px;
 }
