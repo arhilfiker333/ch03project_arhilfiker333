@@ -29,5 +29,5 @@ section table th, section table td {
     border: 1px solid black;
 }
 section table tr:nth-child(even) {
-    background-color: #001aff;
+    background-color: #00b6e4;
 }
