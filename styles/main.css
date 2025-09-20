@@ -31,3 +31,8 @@ section table th, section table td {
 section table tr:nth-child(even) {
     background-color: #00b6e4;
 }
+.resized-img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
