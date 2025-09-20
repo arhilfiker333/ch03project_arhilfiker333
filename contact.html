@@ -3,20 +3,31 @@
     <head>
         <!-- Developer: (Aiden Hilfiker)
         Start Date: (09/20/2023) -->
-        <title>Enhancing My Webpage</title>
-        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <title>Contact Information</title>
+        <link rel="stylesheet" type="text/css" href="styles/main.css"/>
     </head>
     <body>
         <header>
             <h1>
-                Enhancing My Webpage, Aiden Hilfiker
+                Contact Us
             </h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="button" value="Submit" onclick"alert('Form submitted!')">
+            </form>
         </header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <section>
