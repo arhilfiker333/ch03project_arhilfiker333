@@ -18,8 +18,17 @@ nav ul {
     padding: 0;
 }
 
+table {
+    border: 1px solid black; 
+    border-collapse: collapse; 
+}
+
 table tr:nth-child(even) {
     background-color: #949494;
+}
+
+table td, table th {
+    border: 1px solid black;
 }
 .resized-img {
     width: 250px;
