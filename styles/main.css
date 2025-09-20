@@ -23,3 +23,6 @@ nav ul {
     border: 2px solid rgb(0, 195, 255);
     margin: 10px;
 }
+form {
+    margin-bottom: 10px;
+}
