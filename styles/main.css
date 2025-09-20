@@ -3,7 +3,6 @@ nav {
     float: left;
     margin-right: 10px;
     margin-top: -35px;
-    margin-bottom: 35px;
 }
 
 nav ul {
@@ -26,6 +25,7 @@ nav ul {
 }
 form {
     margin-bottom: 35px;
+    margin-top: 60px;
 }
 header {
     margin-bottom: 35px;
